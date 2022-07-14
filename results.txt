@@ -1,0 +1,4 @@
+Resnet56(FedAvg)
+################local_test_on_all_clients : 19
+{'training_acc': 0.5966878622021893, 'training_loss': 1.1481835319968245}
+{'test_acc': 0.6427283653846154, 'test_loss': 1.145049807926019}
