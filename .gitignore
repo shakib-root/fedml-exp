@@ -114,6 +114,9 @@ venv.bak/
 .spyderproject
 .spyproject
 
+# VScode project settings
+.vscode
+
 # Rope project settings
 .ropeproject
 
@@ -127,3 +130,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#data
+data/
