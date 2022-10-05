@@ -15,8 +15,8 @@ train_args:
   federated_optimizer: "FedAvg"
   client_id_list: "[]"
   client_num_in_total: 20
-  client_num_per_round: 10
-  comm_round: 20
+  client_num_per_round: 6
+  comm_round: 40
   epochs: 10
   batch_size: 32
   client_optimizer: sgd
@@ -36,7 +36,7 @@ comm_args:
 
 tracking_args:
   log_file_dir: ./log
-  enable_wandb: false
+  enable_wandb: true
   wandb_key: ee06903c3c95aa6c401a9b8936d953be9e9c66dc
   wandb_project: fedml-exp
-  run_name: fedml_resnet56_fedavg_cifar10
+  run_name: fedml_resnet56_fedavg_cifar10_comm40
