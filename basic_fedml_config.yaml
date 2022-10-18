@@ -5,7 +5,7 @@ common_args:
 data_args:
   dataset: "cifar10"
   data_cache_dir: "data/cifar10/"
-  partition_method: "hetero"
+  partition_method: "hetero"  # set "homo" for iid expeiment and "hetero" for non-iid experiment
   partition_alpha: 0.5
 
 model_args:
